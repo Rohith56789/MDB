@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="cart.css">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+     </script>
+     <script type="text/javascript" src="cart.js"></script>
+   <link rel="icon" type="image/x-icon" href="favicon (1).ico">
+    <title>Shopping Cart</title>
+
+    <link href="cart.css" type="text/html" rel="stylesheet">
+    <!-- Link to CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+<!-- Font Awsome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg container-fluid navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <img
+            src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png"
+            height="25"
+            alt=" Logo"
+            loading="lazy"
+          />
+        </a>
+        <input class="nosubmit" type="search" placeholder="Search...">
+        <!-- Left links -->
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">HTML</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CSS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">bootstrap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">javascript</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Angular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">More</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+  
+  
+      <!-- Right elements -->
+      <div class="d-flex align-items-right">
+        <!-- Icon -->
+        <a class="text-reset me-3" href="index.html">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+       
+        <!-- Avatar -->
+        <div class="dropdown">
+          <a
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuAvatar"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+              class="rounded-circle"
+              height="25"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav> 
+  <!-- Navbar -->
+
+  <div class="container container-lg mt-4">
+    <i class="fa-sharp fa-solid fa-arrow-left" style="color: #28ade6;"></i>
+    <b>My Cart (4)</b>
+<br>
+<!-- <div class="card d-flex"> -->
+<div class="row row-col-2 mt-4">
+    <div class="col col-md-9 d-flex">
+      <!-- <div class="card"> -->
+        <!-- container -->
+    <div id=" container-lg"  class="container-mycart container-fluid">
+<!-- Card-1 -->
+<div class="card card1 d-flex  g-4 mt-4 ">
+    <div class="row d-flex">
+        <div class="col-2 col-sm-1 ">
+            <img src="Diamond ring.jpg" alt="necklace" class="picture"  >
+        </div>
+        <div class="col-2 col-sm-2">
+            <p class="box2">
+                <span id="strikediag"><i >&#8377</i>  2,15,324 </span><br>
+                <b class="text-bold"><i> &#8377 1,56,645</i> </b>
+              </p>
+        </div>
+        <div class="col-3 col-sm-3">
+            <p class="box3">
+                Group : <b>Diamond</b>
+              </p>
+        </div>
+        <div class="col-3 col-sm-3">
+            <p class="box4"> Product : <b>Diamond Ring Fancy</b></p>
+        </div>
+        <div class="col-2 col-sm-3">
+            <i class="fa-regular fa-trash-can"></i>
+        </div>
+    </div>
+</div>
+<br>
+<!-- Card-2 -->
+<div class="card d-flex  g-4 ">
+    <div class="row d-flex">
+        <div class="col-2 col-sm-1 ">
+            <img src="templetops.jpg" alt="necklace" class="picture" >
+        </div>
+        <div class="col-2 col-sm-2">
+            <p class="box2">
+                <span id="strikediag"><i >&#8377</i> 6,12,345 </span><br>
+                <b class="text-bold"><i> &#8377 5,54,499</i> </b>
+              </p>
+        </div>
+        <div class="col-3 col-sm-3">
+            <p class="box3">
+                Group : <b>Gold</b>
+              </p>
+        </div>
+        <div class="col-3 col-sm-3">
+            <p class="box4"> Product : <b> Tops Temple</b></p>
+        </div>
+        <div class="col-2 col-sm-3">
+            <i class="fa-regular fa-trash-can"></i>
+        </div>
+    </div>
+</div>
+<br>  
+ <!--Card-3  -->
+<div class="card d-flex g-4 ">
+    <div class="row d-flex">
+        <div class="col-2 col-sm-1 ">
+            <img src="Earrings" alt="necklace" class="picture"  >
+        </div>
+        <div class="col-2 col-sm-2">
+            <p class="box2">
+                <span id="strikediag"><i >&#8377</i> 3,85,642</span><br>
+                <b class="text-bold"><i> &#8377 2,69,699</i> </b>
+              </p>
+        </div>
+        <div class="col-3 col-sm-3">
+            <p class="box3">
+                Group : <b>Gold</b>
+              </p>
+        </div>
+        <div class="col-3 col-sm-3">
+            <p class="box4"> Product : <b> Chand Bali light Weight</b></p>
+        </div>
+        <div class="col-2 col-sm-3">
+            <i class="fa-regular fa-trash-can"></i>
+        </div>
+    </div>
+</div>
+<br>
+<!-- Card-4 -->
+<div class="card d-flex g-4">
+    <div class="row d-flex">
+        <div class="col-2 col-sm-1 ">
+            <img src="Gold ring (1).jpg" alt="necklace" class="picture"  >
+        </div>
+        <div class="col-2 col-sm-2">
+            <p class="box2">
+                <span id="strikediag"><i >&#8377</i> 2,00,420 </span><br>
+                <b class="text-bold"><i> &#8377 1,26,699</i> </b>
+              </p>
+        </div>
+        <div class="col-3 col-sm-3">
+            <p class="box3">
+                Group : <b>Gold</b>
+              </p>
+        </div>
+        <div class="col-3 col-sm-3">
+            <p class="box4"> Product : <b> Chand Bali Light weight</b></p>
+        </div>
+        <div class="col-2 col-sm-3">
+            <i class="fa-regular fa-trash-can"></i>
+        </div>
+    </div>
+</div>
+<br>
+    </div>
+      </div>
+<!-- </div> -->
+
+<div class="col col-md-3 ">
+<div class=" card sidecard mx-2 ">
+    <h4 class="texthead">Grand Total</h4>   
+    <p>
+        Total Products : <b> 4</b>
+        <br>
+        Total Amount : <b>11,80,843</b>
+        <br>
+    </p> 
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="toast1">
+      <div class="toast-body">
+        Hello, world! This is a toast message.
+        <div class="mt-2 pt-2 border-top">
+          <button type="button" class="btn btn-primary btn-sm">Take action</button>
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
+        </div>
+      </div>
+    </div>
+   <button type="button" id="button7" onclick="popup()" role="alert" >Your Order Placed Successfully</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<section>
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+      <div class="mt-2 pt-2 border-top">
+        <button type="button" class="btn btn-primary btn-sm">Take action</button>
+        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+    <div class="mt-2 pt-2 border-top">
+      <button type="button" class="btn btn-primary btn-sm">Take action</button>
+      <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
+    </div>
+  </div>
+</div>
+<script src="cart.js" rel="linksheet" type="text/html"></script>
+<script>
+var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+var toastList = toastElList.map(function (toastEl) {
+  return new bootstrap.Toast(toastEl, option)
+})
+
+function popup() {
+console.log("clicked!!");
+document.getElementById("toast1").style.display = "block"; ///////
+}
+</script>
+
+</body>
+</html> 
+
+
+
+
+
+
+

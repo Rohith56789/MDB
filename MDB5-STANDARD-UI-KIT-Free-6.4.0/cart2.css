@@ -1,0 +1,106 @@
+
+/* google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+  font-family: 'popins', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+
+
+/* .container{
+    display:flex;
+    width:70%;
+    margin-bottom: 30%;
+    grid-gap: 20px;
+}
+#root{ 
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2px;
+    
+ }
+    
+  .sidebar{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #be2929;
+    margin-left: 20px;
+    padding:15px;
+    text-align: center;
+  }
+  .foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding:10px 0px;
+    border-top: 1px solid#333 ;
+  }
+  #cartimg{
+    width: 35px;
+    margin-top: 0.6px;
+    margin-bottom: 0.6px;
+    margin-left: 0.6px;
+    margin-right: 0.6px;
+
+  } */
+ 
+/* related Products */
+.product-img{
+  padding: 20px ;
+  border: 2px red;
+}
+
+.container{
+  width:max-content;
+}
+
+.btn{
+  width: 12rem;
+  margin-block-end: 10px;
+  margin-left: 10px;
+  padding: blue;
+}
+
+
+.grand{
+  margin-inline: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+  height: 100vh;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(233, 241, 241);
+
+}
+.toast{
+  position: absolute;
+  background-color: violet;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+}
+.toast .toast-content{
+  display: flex;
+  align-items: center;
+}
+.toast-content .message{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
